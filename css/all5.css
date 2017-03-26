@@ -1,0 +1,166 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+
+
+.logo{
+	height: 20px;
+	width: 20px;
+	float: left;
+	margin-right: 20px;
+}
+
+.wrap{
+	width: 850px;
+	margin: 0 auto 0 auto;
+	font-family:"Microsoft JhengHei";
+
+}
+.ulist li{
+	border-bottom: 1px solid ;
+}
+
+.ulist li a{
+	text-decoration: none;
+	line-height: 35px;
+	color: 	#844200;
+	display: block;
+}
+.ulist li a:hover{
+	background: #844200;
+	color: #fff;
+}
+h1{
+	font-size: 20px;
+	color: 	#844200;
+	float: left;
+
+}
+.list{
+	width: 210px;
+	float: left;
+	margin-top: 30px;
+	margin-left: 20px;
+	margin-right: 20px;
+}
+.pictu{
+	margin-bottom: 30px;
+}
+.conte{
+	width: 600px;
+	float: left;
+
+	margin-top: 30px;
+
+}
+.p1{
+	width: 185px;
+	height: 140px;
+}
+.dl{
+	width: 200px;
+	float: left;
+	margin-bottom: 30px;
+	text-align: center;
+}
+.line{
+	text-align: center;
+	
+	margin-bottom: 10px;
+	
+
+}
+.cart{ 
+	color: #000;
+	text-decoration: none;
+	display: block;
+	height: 20px;
+	width: 140px;
+	border-width: 3px;
+	border-style:solid ;
+	border-color: orange;
+	margin: 15px;
+	text-align: center;
+	padding: 5px;
+	color: orange;
+
+
+}
+
+.cart:hover{
+	background: orange;
+	color: #fff;
+
+}
+.orde{
+	width: 180px;
+	margin: 0 10px 10px 10px;
+	box-shadow:3px 3px 12px gray;
+	float: left;
+	position: relative;
+	
+}
+.ovep{
+	display: block;
+	width: 180px;
+	height: 120px;
+	
+}
+h2, h3{
+	margin-top: 10px;
+	text-align: center;
+	margin-bottom: 10px;
+}
+.ccaa{
+	width: 18px;
+	height: 18px;
+}
+.clear{
+	clear: both;
+}
+.hea{
+	position: absolute;
+	left:10px;
+	top:10px;
+}
